@@ -1,0 +1,75 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos do header */
+  header {
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilos da seção de introdução */
+  .intro {
+    text-align: center;
+    padding: 4rem;
+    background-color: #f9f9f9;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ffb6c1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos da seção de portfólio */
+  .portfolio {
+    text-align: center;
+    padding: 4rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+  }
+  
+  /* Estilos do footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffb6c1;
+    color: #fff;
+  }
+  
